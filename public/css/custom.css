@@ -1,0 +1,360 @@
+.navbar {
+    position: relative;
+    background-color: #f7f7f7;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.navbar-brand img {
+    max-height: 60px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #228B22;
+}
+
+.nav-link:hover {
+    color: #0e690e;
+}
+
+.menu {
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.menu li {
+    font-size: 15px;
+    display: inline;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: roboto;
+    color: #38c172;
+}
+
+.menu a:hover {
+    color: #2a8618;
+}
+
+.titulo-pagina {
+    width: 100%;
+    color: white;
+    background-color: #228b2256;
+    padding: 40px 0px 60px 0px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.titulo-pagina h1 {
+    font-size: 3.35em;
+    font-weight: 900;
+    line-height: 1em;   
+}
+
+.titulo-pagina .inicial {
+    margin-left: 20%;
+}
+
+.titulo-pagina p {
+    font-weight: 500;
+    line-height: 0.9em;
+    margin-left: 20.5%;
+}
+
+.titulo-pagina i {
+    position: relative;
+    float: right;
+    right: 5%;
+    margin-right: 10px;
+    color: white;
+}
+
+.titulo-app {
+    position: absolute;
+    top: 20vh;
+    left: 20%;
+    font-size: 7vh;
+    font-family: inter;
+    text-align: center;
+    color: rgb(27, 138, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-app b {
+    color: #38c172;
+}
+
+.titulo-form {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    color: #153579;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.titulo-lista {
+    width: 100%;
+    color: white;
+    background-color: #228b2256;
+    padding: 40px 0px 60px 0px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.titulo-lista h1 {
+    font-size: 3.35em;
+    font-weight: 900;
+    line-height: 1em;   
+}
+
+.fundo-claro form {
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+    top: 8vh;
+    background-color: #fff;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.fundo-claro input, select , select{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fundo-claro .card {
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.fundo-claro button {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.custom-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+
+.custom-input.is-invalid {
+    border-color: red;
+}
+
+.custom-invalid-feedback {
+    color: red;
+    font-size: 0.975em;
+}
+
+.error-icon {
+    transform: translateY(90%); 
+    right: 50px; 
+    color: red;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.336);
+  }
+
+  th {
+    height: 40px;
+    background: #119c4b;
+    color: #f1f1f1;
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #228b2256;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #228b2256;
+    color: #fff;
+    }
+  
+  tr:hover {
+    background-color: #228b2256;
+    color: #fff;
+  }
+
+.conteudo-pagina {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cadastro-quadro {
+    position: relative;
+    margin-top: 5%;
+    flex-direction: column;
+}
+
+.cadastro {
+    display: flex;
+    margin: -25px 0 80px 60px;
+    background-color: #38c172;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 10vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.336);
+}
+
+.cadastro-quadro a {
+    text-decoration: none;
+    color: white;
+}
+
+.cadastro h4 {
+    position: relative;
+    font-size: 1rem;
+}
+
+.cadastro h4:hover {
+    color: #f7f7f7;
+}
+
+.direita-design {
+    position: relative;
+    float: right;
+    width: 100vh;
+    height: 100vh;
+    background-color: #38c172;
+    clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 0% 100%);
+    right: 0;
+}
+
+.midia {
+    position: absolute;
+    top: 25vh;
+    left: 55%;
+
+}
+
+.midia img {
+    width: 95%;
+}
+
+.texto-pagina {
+    max-width: 650px;
+    text-align: center;
+}
+
+.fundo-claro {
+    float: inline-start;
+    background: linear-gradient(135deg, #fff, #f8f7f7);
+    width: 100%;
+    height: 100%;
+}
+
+.home-quadro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin-top: -50px;
+}
+
+.home-quadro img {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    left: -35px;
+    top: -25px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.home-quadro a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-quadro a:hover {
+    color: #0a0f0c;
+}
+
+.home-quadro h2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    font-family: system-ui;
+    
+}
+
+.home-quadro p {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.centro, .direita, .esquerda {
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #38c172;
+    width: 25%;
+    height: 70%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.336);
+}  
+
+.paginacao {
+    text-align: center;
+    color: #0e690e;
+}
+
+.page-item.active .page-link {
+    background-color: #0e690e;
+    border-color: #119c4b;
+}
+
+.page-link {
+    color: #0e690e;
+}
+
+.redes-sociais i {
+    letter-spacing: 20px;
+    font-size: 60px;
+    color: #228B22;
+}
