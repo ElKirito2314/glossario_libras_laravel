@@ -11,6 +11,6 @@ class Termos extends Model
     protected $fillable = ['categoria_id', 'termo_port', 'definicao'];
 
     public function categorias() {
-        return $this->belongsTo(categorias::class, 'categoria_id');
+        return $this->belongsTo(Categorias::class, 'categoria_id');
     }
 }

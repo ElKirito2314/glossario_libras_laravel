@@ -11,6 +11,6 @@ class Sinais extends Model
     protected $fillable = ['termo_id', 'midia', 'descricao', 'fonte'];
 
     public function termos(){
-        return $this->belongsTo(termos::class, 'termo_id');
+        return $this->belongsTo(Termos::class, 'termo_id');
     }
 }
