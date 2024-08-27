@@ -358,3 +358,32 @@ table {
     font-size: 60px;
     color: #228B22;
 }
+
+.search-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search-container button {
+    padding: 10px;
+    background: #0e690e;
+    color: white;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+.search-container button:hover {
+    background: #119c4b;
+}
