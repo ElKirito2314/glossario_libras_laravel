@@ -16,7 +16,7 @@
                             </h5>
                             <p class="card-text">{{ $cat->descricao }}</p>
                             <div class="text-center">
-                                <a href="{{ route('site.sinal', ['categoria_id' => $cat->id]) }}" class="btn btn-primary">Sinais</a>
+                                <a href="{{ route('site.sinal', ['categoria_id' => $cat->id]) }}" class="btn btn-success">Sinais</a>
                             </div>
                         </div>
                     </div>
