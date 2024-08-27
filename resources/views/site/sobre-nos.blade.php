@@ -14,7 +14,10 @@
                     Este glossário visa facilitar a inclusão e a comunicação através da Língua Brasileira de Sinais (Libras), promovendo um ambiente mais inclusivo e colaborativo.
                     Explore nosso site para descobrir termos técnicos, vídeos explicativos e muito mais!
                 </p>
-                <img src="{{ asset('img/player_video.jpg') }}" alt="Ruan vídeo" class="img-fluid rounded">
+                <video width="100%" controls>
+                    <source src="{{ asset('img/sobre-nos.mp4') }}" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                </video>
             </div>
         </div>
 </div>
