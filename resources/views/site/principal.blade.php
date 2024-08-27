@@ -17,7 +17,10 @@
             <div class="texto-pagina">
                 <h2>O primeiro glossário de Libras voltado para a área de informática do IFBA Campus Seabra</h2>
             </div>
-            <img src="{{ asset('img/player_video.jpg') }}" alt="Ruan vídeo" class="img-fluid rounded d-flex flex-column align-items-center">
+                <video width="100%" controls>
+                    <source src="{{ asset('img/boas-vindas.mp4') }}" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                </video>
         </div>
         <div class="col-md-4 flex-column align-items-end">
             <h2 class="mb-4">Conheça o nosso projeto</h2>
